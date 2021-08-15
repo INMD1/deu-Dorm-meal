@@ -21,6 +21,24 @@ moment-timezone
 
 그려면 hyomin.json이랑 happy.json에 데이터가 저장이 됨니다.
 
+```
+이번에 따로 반복할 파일 그리고 반복하지 파일을 따로 분리를 해놓았습니다.
+반복문 O
+
+timer_week.js
+
+반복문 X
+
+timer.js
+
+*반복을 안할 경우 아래에 라이브러리는 설치 안해도 됨니다.
+
+node-schedule
+moment
+moment-timezone
+
+```
+
 # 타이머 설정
 ```js
 const schedule = require('node-schedule');
